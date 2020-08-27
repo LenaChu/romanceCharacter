@@ -3,4 +3,4 @@
 
 This is a small game that will predict your character in a romance novel. I write this game to experiment how to share the quiz result on Facebook.
 
-Play the game👉  https://lenachu.github.io/romanceCharacter/romanaceCharacter.html
+Play the game👉  https://lenachu.github.io/romanceCharacter/romanceCharacter.html
