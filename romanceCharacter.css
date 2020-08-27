@@ -24,3 +24,9 @@ button{
 .hidden{
     display: none;
 }
+
+@media only screen and (max-width: 411px){
+    .container{
+        margin: 5% 10%;
+    }
+}
