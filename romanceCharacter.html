@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ch">
+    <head>
+        <title>言情小說屬性測試</title>
+        <link rel="stylesheet" type="text/css" href="romanceCharacter.css">
+    </head>
+    <body>
+        <!--Facebook JavaScript SDK-->
+        <script>
+            window.fbAsyncInit = function() {
+              FB.init({
+                appId            : 'your-app-id',
+                autoLogAppEvents : true,
+                xfbml            : true,
+                version          : 'v8.0'
+              });
+            };
+          </script>
+          <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+          <!--Quiz starts-->
+        <div class="container">     
+            <h1>你在言情小說裡是哪種角色？</h1>
+            <p>輸入你的生日和手機尾數，馬上測結果</p>
+            <span>月份:</span>
+            <select id="month">
+                <option value="0">一月</option>
+                <option value="1">二月</option>
+                <option value="2">三月</option>
+                <option value="3">四月</option>
+                <option value="4">五月</option>
+                <option value="5">六月</option>
+                <option value="6">七月</option>
+                <option value="7">八月</option>
+                <option value="8">九月</option>
+                <option value="9">十月</option>
+                <option value="10">十一月</option>
+                <option value="11">十二月</option>
+            </select>
+            <span>出生日期尾數:</span>
+            <select id="birthday">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <span>手機尾數:</span>
+            <select id="phoneNum">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+            </select>
+            <div class="buttonGrp">
+                <button id="submit" onclick="returnValue()">送出</button>
+                <button onclick="reset()">再測一次</button>
+            </div>
+            <p class="result"></p>
+            <button class="hidden" id="shareBtn">認同請分享</button>
+        </section>
+        <script src="romanceCharacter.js"></script>
+    </body>
+</html>

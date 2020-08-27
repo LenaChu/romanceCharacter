@@ -1,0 +1,26 @@
+body{
+    margin:0;
+}
+.container{
+    margin: 5% 30%;
+}
+select{
+    margin-right: 20px;
+}
+.buttonGrp{
+    margin: 20px 0;
+}
+button{
+    margin-right: 20px;
+}
+.result{
+    font-size: 48px;
+    padding: 80px 0;
+    text-align: center;
+}
+.selected{
+    background-color: hsl(0, 63%, 78%);
+}
+.hidden{
+    display: none;
+}
